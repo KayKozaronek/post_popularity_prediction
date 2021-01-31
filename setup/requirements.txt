@@ -1,0 +1,2 @@
+ipykernel==5.4.3
+pipdeptree==2.0.0
