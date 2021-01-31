@@ -6,17 +6,17 @@ In this project we gether Data from HackerNews to train a model to predict a pos
 # 1. Getting started (Install required packages)
 To get started with the project files choose your preferred way of installing 
 
-## 1.1 Conda
-You can recreate the environment by running the following command:
-`conda create --name yourenvname --file spec-file.txt`
+## 0.1 Conda
+- You can recreate the environment by running the following command:
+`conda env create -f environment.yml`
 
-Once all packages are installed, you can activate the virtual environment by using:
+- Once all packages are installed, you can activate the virtual environment by using:
 `conda activate`
 
-Deactivate:
+- Deactivate:
 `conda deactivate`
 
-## 1.2 Venv
+## 0.2 Venv
 If you have Python 3 installed then you do not need to install anything extra to use this.
 
 Install packages from requirements.txt with Python 3:
@@ -28,7 +28,7 @@ Activate the env:
 Deactivate by typing:
 `deactivate`
 
-## 1.3 Pipenv
+## 0.3 Pipenv
 
 If not yet installed:
 `pip install pipenv`
