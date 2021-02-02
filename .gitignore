@@ -1,0 +1,23 @@
+# repo specific libs
+
+# ignore files in folder
+
+data/*
+
+reports/*
+
+models/*
+
+.vscode/*
+
+ 
+
+# but keep the folder
+
+!data/.keep
+
+!reports/.keep
+
+!models/.keep
+
+ 
