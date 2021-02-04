@@ -6,9 +6,8 @@ import csv
 
 requests_cache.install_cache()
 
-
 INIT_POST = 22201337
-REQUEST_AMOUNT = 140
+REQUEST_AMOUNT = 150
 
 def get_item(post_id):
     """
